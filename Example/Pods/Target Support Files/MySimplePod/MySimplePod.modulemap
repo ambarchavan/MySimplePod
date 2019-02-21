@@ -1,0 +1,6 @@
+framework module MySimplePod {
+  umbrella header "MySimplePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

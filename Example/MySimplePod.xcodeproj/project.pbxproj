@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0FBD24767A1BD7B8F88E0088 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		442254EA71DB498B42D55777 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0FBD24767A1BD7B8F88E0088 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		442254EA71DB498B42D55777 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MySimplePod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimplePod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		788BE5BA436E03060B7F517A /* Pods-MySimplePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySimplePod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MySimplePod_Tests/Pods-MySimplePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A42FFE984E90ACEEDC288EBD /* Pods_MySimplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySimplePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5F22C4E750D702E338F34A3 /* MySimplePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MySimplePod.podspec; path = ../MySimplePod.podspec; sourceTree = "<group>"; };
+		A5F22C4E750D702E338F34A3 /* MySimplePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MySimplePod.podspec; path = ../MySimplePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F78C6DEE5F308C7AC1DDECA3 /* Pods-MySimplePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySimplePod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MySimplePod_Tests/Pods-MySimplePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				F78C6DEE5F308C7AC1DDECA3 /* Pods-MySimplePod_Tests.debug.xcconfig */,
 				788BE5BA436E03060B7F517A /* Pods-MySimplePod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

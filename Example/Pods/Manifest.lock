@@ -1,0 +1,16 @@
+PODS:
+  - MySimplePod (0.1.0)
+
+DEPENDENCIES:
+  - MySimplePod (from `../`)
+
+EXTERNAL SOURCES:
+  MySimplePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MySimplePod: 9e4006332a22364dbca723d1a61aaa234fd950f2
+
+PODFILE CHECKSUM: 2e8959fd5fe2e9043f43d0e63655a0541a1ae1b3
+
+COCOAPODS: 1.6.0
