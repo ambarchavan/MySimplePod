@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MySimplePod'
+  s.name             = 'TestSimplePod'
   s.version          = '0.1.0'
   s.summary          = 'MySimplePod is a simple test pod'
   s.swift_version    = '4.1'
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MySimplePod/**/*'
+  s.source_files = 'MySimplePod/*'
   
   # s.resource_bundles = {
   #   'MySimplePod' => ['MySimplePod/Assets/*.png']
